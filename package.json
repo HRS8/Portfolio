@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.284",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind": "^1.0.0",
