@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav className="font-Source Code Pro">
-      <nav className={`${styles.paddingX} w-full flex py-5 fixed top-0 z-20 ${scrolled? "backdrop-blur-xl":"bg-transparent"}`}>
+      <nav className={`${styles.paddingX} w-full flex py-5 fixed top-0 z-20 ${scrolled? "transition ease-linear delay-70 duration-[900ms] backdrop-blur-lg bg-white bg-opacity-10 backdrop-shadow-lg ":"bg-transparent"}`}>
         <div className="w-full flex  justify-start max-w-7xl mx-auto md:justify-between">
           <Link to="/" className="flex items-center gap-2 right-0 flex-row md:flex-row" onClick={()=>{
             setActive("");
