@@ -28,7 +28,25 @@ module.exports = {
         circularLightMd:'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#000 8px,#000 60px);',
         circularLightSm:'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#000 8px,#000 45px);',
       },
-      animation:{},
+      animation:{
+        blob:"blob 5s infinite"
+      },
+      keyframes:{
+        blob:{
+          "0%":{
+            transform:"translate(0px,0px) scale(1)",
+          },
+          "33%":{
+            transform:"translate(-10vw,10vh,150px) scale(1.5)",
+          },
+          "66%":{
+            transform:"translate(6vw,-10vh,30px) scale(0.5)",
+          },
+          "100%":{
+            transform:"translate(0px,0px) scale(1)"
+          },
+        }
+      },
     },
   },
   plugins: [],
