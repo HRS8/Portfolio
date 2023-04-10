@@ -122,10 +122,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
     ],
   },
   {
@@ -135,10 +132,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
     ],
   },
   {
@@ -148,10 +142,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
     ],
   },
   {
@@ -161,10 +152,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
     ],
   },
 ];
@@ -172,35 +160,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "Lorem ipsum ipse doir loreal dummy dummy dumm",
+    name: "dummy",
     designation: "CFO",
-    company: "Acme Co",
+    company: "DUM Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Lorem ipse doir dummy lorem ipsium edior",
+    name: "dummy",
     designation: "COO",
-    company: "DEF Corp",
+    company: "DUM Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Lorem ipse doir dummy lorem ipsium edior",
+    name: "Lorem",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "DUM",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "LOREM",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "LOREM IPSUM IPSDIOR ELLE LOREM IPSUM DUMMY ",
     tags: [
       {
         name: "react",
@@ -219,9 +207,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "LOREM",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "LOREM IPSIDIUM IPSIDOR LOREM ",
     tags: [
       {
         name: "react",
@@ -240,9 +228,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "IPSIDIOR",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "LOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREM",
     tags: [
       {
         name: "nextjs",
