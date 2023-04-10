@@ -20,7 +20,8 @@ const Hero = () => {
           </p>
           <div className="mt-4">
             <a
-              href="https://github.com/HRS8/VitePort/blob/main/public/Harsha%20resume.pdf" download
+              href="https://github.com/HRS8/VitePort/raw/main/public/Harsha%20resume.pdf"
+              download
             >
               <button className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-black border-2 border-transparent hover:border-white-100 transition ease-in-out delay-100 duration-300 hover:scale-90">
                 My resume
