@@ -31,9 +31,9 @@ const Hero = () => {
         </div>
       </div>
       <div class="flex justify-end relative w-full h-screen z-10">
-        <div class="bg-blue-500 w-[40vw] h-[40vw] m-2 filter blur-xl delay-[2s] opacity-70 animate-blob mix-blend-multiply rounded-full absolute top-[12vw] -right-[5vw]"></div>
-        <div class="bg-green-500 w-[40vw] h-[40vw] m-2 delay-[4s] filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute top-[5rem] right-[15rem]"></div>
-        <div class="bg-orange-600 w-[40vw] h-[40vw] m-2 filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute -top-[6vw] -right-[6vw]"></div>
+        <div class="bg-blue-500 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 filter blur-xl delay-[2s] opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:top-[12vw] lg:-right-[5vw] top-[25vh] -right-[5vh]"></div>
+        <div class="bg-green-500 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 delay-[4s] filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:top-[5rem] lg:right-[15rem] top-[13vh] right-[10vh]"></div>
+        <div class="bg-orange-600 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:-top-[6vw] lg:-right-[6vw] -top-[5vh] -right-[10vh]"></div>
       </div>
     </section>
   );
