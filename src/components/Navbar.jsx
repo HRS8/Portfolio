@@ -25,8 +25,8 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <nav className="font-Source Code Pro">
-      <nav className={`${styles.paddingX} w-full flex py-5 fixed top-0 z-20 ${scrolled? "transition ease-linear delay-70 duration-[900ms] backdrop-blur-lg bg-white bg-opacity-10 backdrop-shadow-lg ":"bg-transparent"}`}>
+    <nav className="font-Source Code Pro fixed z-20">
+      <nav className={`${styles.paddingX}  w-full flex py-5 fixed top-0 z-20 ${scrolled? "transition ease-linear delay-70 duration-[900ms] backdrop-blur-lg bg-white bg-opacity-10 backdrop-shadow-lg ":"bg-transparent"}`}>
         <div className="w-full flex  justify-start max-w-7xl mx-auto md:justify-between">
           <Link to="/" className="flex items-center gap-2 right-0 flex-row md:flex-row" onClick={()=>{
             setActive("");
@@ -37,7 +37,7 @@ const Navbar = () => {
               Harsha&nbsp;<span className="sm:block hidden">|WebDev</span>
             </p>
           </Link>
-          <ul className='list-none hidden sm:flex flex-row gap-10 items-center right-0'>
+          <ul className='list-none hidden sm:flex flex-row gap-10 items-center right-0 '>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -50,7 +50,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-end items-center '>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -61,7 +61,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
