@@ -116,43 +116,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Networking Engineer",
+    company_name: "CISCO",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2019 - Jan 2020",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
+      "I successfully completed Assessments given by Cisco","I was able to expand my knowledge in domain of networking and hardware by help of the best","this was done as a part job oriented skill training in diploma"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Full Stack Web Developer",
+    company_name: "APSSDC",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2020 - April 2020",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
+      "I was one of 20 students got selected out of 300 across the state based on academics","As a part of final project we,A team of 5 students build a fullstack website and deployed it using BootStrap,SpringBoot,MongoDb "
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Cloud Architect",
+    company_name: "AWS",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2021 - April 2021",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
+      "I took my first steps in Cloud by successfully completing AWS Cloud Architect and Engineer courses offered by AWS","I completed all the hands on labs assessed to me which had various tasks in cloud","I was able to join community of AWS Community Builders"
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Backend Developer",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2021 - August 2021",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur gravida dui vitae consequat. Duis nisl quam, tincidunt nec sem ut, pretium luctus elit. Vestibulum in lectus mattis, fermentum augue laoreet, venenatis ligula. Donec luctus tempor enim nec dignissim. Vestibulum dapibus turpis justo, at sodales erat luctus id. In eleifend accumsan quam, et dapibus est congue id. Nullam vitae porttitor nisi. Ut molestie ligula sed diam feugiat porttitor. Pellentesque porttitor, nisl vel malesuada consequat, tortor nisi sollicitudin odio, nec lobortis arcu arcu id nisi. Cras et vulputate mauris. Mauris nec lectus ut turpis gravida consectetur ut a nisi. Donec non sapien ut mauris hendrerit fringilla. Curabitur quis volutpat nunc. Phasellus interdum id nunc ac sodales. In lacinia turpis vel ullamcorper lobortis. Duis at dui pharetra, lobortis sapien vitae, commodo dui."
+      "When I wanted to play with backend technologies,I signed up for backend developer course by meta","With help of this I kick started my journey through Backend Technologies","I developed a sample restaurant website from scratch using Django,Oauth by implementing API","It needs to have features like pagination,Throttling,Table Booking InOrder to qualify the test"
+    ],
+  },
+  {
+    title: "Cloud Digital Leader",
+    company_name: "Google",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Sep 2021 - Nov 2021",
+    points: [
+      "At time I am really excited about the cloud and wanted to explore it a bit more and I had the opportunity to be Trained to be a GCP which is a certification offered by Google","I was able to succesfully complete it by successfully complete the tasks and assessments given in the course"
+    ],
+  },
+  {
+    title: "DevOps Engineer",
+    company_name: "LinkedIn",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "March 2022 - Sep 2022",
+    points: [
+      "I really Wanted to explore the world of DevOps and understand it to know whats all the hype for","It was taught by the experts like ernest Muller on the ever growing LinkedIn Learning Platform","I really great opportunity know the basics of the DevOps and a few HandsOn Labs and assessments on it","tech Involved:"
     ],
   },
 ];
