@@ -18,11 +18,16 @@ import {
   meta,
   starbucks,
   tesla,
+  cisco,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  aws,
+  gcp,
+  link,
+  apssdc,
 } from "../assets";
 
 export const navLinks = [
@@ -118,8 +123,8 @@ const experiences = [
   {
     title: "Networking Engineer",
     company_name: "CISCO",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: cisco,
+    iconBg: "#E6DEDD",
     date: "March 2019 - Jan 2020",
     points: [
       "I successfully completed Assessments given by Cisco","I was able to expand my knowledge in domain of networking and hardware by help of the best","this was done as a part job oriented skill training in diploma"
@@ -128,7 +133,7 @@ const experiences = [
   {
     title: "Full Stack Web Developer",
     company_name: "APSSDC",
-    icon: tesla,
+    icon: apssdc,
     iconBg: "#E6DEDD",
     date: "Feb 2020 - April 2020",
     points: [
@@ -138,8 +143,8 @@ const experiences = [
   {
     title: "Cloud Architect",
     company_name: "AWS",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: aws,
+    iconBg: "#E6DEDD",
     date: "Feb 2021 - April 2021",
     points: [
       "I took my first steps in Cloud by successfully completing AWS Cloud Architect and Engineer courses offered by AWS","I completed all the hands on labs assessed to me which had various tasks in cloud","I was able to join community of AWS Community Builders"
@@ -158,7 +163,7 @@ const experiences = [
   {
     title: "Cloud Digital Leader",
     company_name: "Google",
-    icon: meta,
+    icon: gcp,
     iconBg: "#E6DEDD",
     date: "Sep 2021 - Nov 2021",
     points: [
@@ -168,11 +173,11 @@ const experiences = [
   {
     title: "DevOps Engineer",
     company_name: "LinkedIn",
-    icon: meta,
+    icon: link,
     iconBg: "#E6DEDD",
     date: "March 2022 - Sep 2022",
     points: [
-      "I really Wanted to explore the world of DevOps and understand it to know whats all the hype for","It was taught by the experts like ernest Muller on the ever growing LinkedIn Learning Platform","I really great opportunity know the basics of the DevOps and a few HandsOn Labs and assessments on it","tech Involved:"
+      "I really Wanted to explore the world of DevOps and understand it to know whats all the hype for","It was taught by the experts like ernest Muller on the ever growing LinkedIn Learning Platform","I really great opportunity know the basics of the DevOps and a few HandsOn Labs and assessments on it","tech Involved: "
     ],
   },
 ];
