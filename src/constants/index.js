@@ -211,41 +211,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "LOREM",
+    name: "GVPCE-NSS",
     description:
-      "LOREM IPSUM IPSDIOR ELLE LOREM IPSUM DUMMY ",
+      "I was among few members of team and we collectively developed website for NSS club of GVPCE as GVPCE-NSS from ground up which is launched and awarded by Dignitaries of GVPCE",
     tags: [
       {
-        name: "react",
+        name: "tailwind CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gvpcenss/website",
   },
   {
-    name: "LOREM",
+    name: "MetaAid",
     description:
-      "LOREM IPSIDIUM IPSIDOR LOREM ",
+      "During my diploma internship I was one of 30 applicants who got selected out of 300 from across the state for the internship offered by APSSDC and as a final assessment we were required to build a full stack web app from scratch",
     tags: [
       {
-        name: "react",
+        name: "Springboot",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "saas",
         color: "pink-text-gradient",
       },
     ],
@@ -253,20 +253,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "IPSIDIOR",
+    name: "Multi Channel Alert System",
     description:
-      "LOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREMLOREM IPSIDIUM IPSIDOR LOREM",
+      "We Developed a Multi Channel Alert System using Amazon SNS which proved to be 1.5 times profitable forlarge scaled enterprices than the competition.This was done for mini project in 4th semester of Btech",
     tags: [
       {
-        name: "nextjs",
+        name: "AWS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "AWS SNS",
         color: "pink-text-gradient",
       },
     ],
