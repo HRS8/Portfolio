@@ -15,6 +15,7 @@
     "react-dom": "^18.2.0",
     "react-typewriter-effect": "^1.1.0",
     "tailwind": "^1.0.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "typewriter-effect": "^2.19.0",
     "watch": "^0.13.0"
   },
