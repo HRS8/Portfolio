@@ -29,7 +29,7 @@ module.exports = {
         circularLightSm:'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#000 8px,#000 45px);',
       },
       animation:{
-        blob:"blob 5s infinite",
+        blob:"blob 9s infinite",
       },
       keyframes:{
         blob:{
@@ -37,10 +37,10 @@ module.exports = {
             transform:"translate(0px,0px) scale(1)",
           },
           "33%":{
-            transform:"translate(-10vw,10vh,150px) scale(1.5)",
+            transform:"translate(10px,-10px) scale(1.1)",
           },
           "66%":{
-            transform:"translate(6vw,-10vh,30px) scale(0.5)",
+            transform:"translate(-10px,20px) scale(0.9)",
           },
           "100%":{
             transform:"translate(0px,0px) scale(1)"
