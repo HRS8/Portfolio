@@ -185,27 +185,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Lorem ipsum ipse doir loreal dummy dummy dumm",
-    name: "dummy",
-    designation: "CFO",
-    company: "DUM Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I've secured 3rd rank in a competitive entrance test AP-ECET which is state wide examination in stream of CSE in year 2020",
   },
   {
     testimonial:
-      "Lorem ipse doir dummy lorem ipsium edior",
-    name: "dummy",
-    designation: "COO",
-    company: "DUM Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've secured 98rd rank in a competitive entrance test TS-ECET which is state wide examination in stream of CSE in in year 2020",
   },
   {
     testimonial:
-      "Lorem ipse doir dummy lorem ipsium edior",
-    name: "Lorem",
-    designation: "CTO",
-    company: "DUM",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I've attended multiple hackathons and won some of them during my education.I've been to interstate competitions ended up among the top",
   },
 ];
 
