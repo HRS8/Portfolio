@@ -13,7 +13,9 @@
     "@splinetool/runtime": "^0.9.284",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-typewriter-effect": "^1.1.0",
     "tailwind": "^1.0.0",
+    "typewriter-effect": "^2.19.0",
     "watch": "^0.13.0"
   },
   "devDependencies": {

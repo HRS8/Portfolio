@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-
+import { color, motion } from "framer-motion";
+import Typewriter from 'typewriter-effect'
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -7,16 +7,32 @@ const Hero = () => {
   return (
     <section className={`relative  h-screen mx-auto overflow-hidden  `}>
       <div
-        className={`absolute inset-0 top-[120px] xl:ml-[5rem] z-20 max-w-auto mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[22vh] xl:ml-[5rem] z-20 max-w-auto mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div>
           <h1 className={`${styles.heroHeadText} text-white cursor-pointer`}>
-            Hi, I'm{" "}
+            Hi
+            <span className="wave" role="img" aria-labelledby="wave">
+              👋🏻
+            </span>
+            <br />
+            I'm{" "}
             <span className="text-[#915EFF] font-Andan font-thin">Harsha</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Let's dwell into my space <br className="hidden sm:block" />
-            console.log("le'ss gooo..")
+            <Typewriter
+              options={{
+                strings: [
+                  "Developer",
+                  "Deep Learning Engineer",
+                  "MERN Stack Developer",
+                  "Open Source Contributor",
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+              }}
+            />
           </p>
           <div className="mt-4">
             <a
@@ -31,9 +47,11 @@ const Hero = () => {
         </div>
       </div>
       <div class="flex justify-end relative w-full h-screen z-10">
-        <div class="bg-blue-500 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 filter blur-xl delay-[2s] opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:top-[12vw] lg:-right-[5vw] top-[25vh] -right-[5vh]"></div>
-        <div class="bg-green-500 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 delay-[4s] filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:top-[5rem] lg:right-[15rem] top-[13vh] right-[10vh]"></div>
-        <div class="bg-orange-600 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:-top-[6vw] lg:-right-[6vw] -top-[5vh] -right-[10vh]"></div>
+        <span>
+          <div class="bg-blue-500 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 filter blur-xl animation-delay-6000 opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:top-[12vw] lg:-right-[5vw] top-[25vh] -right-[5vh]"></div>
+          <div class="bg-green-500 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 animation-delay-3000 filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:top-[5rem] lg:right-[15rem] top-[13vh] right-[10vh]"></div>
+          <div class="bg-orange-600 w-[40vh] h-[40vh] lg:w-[40vw] lg:h-[40vw] m-2 filter blur-xl opacity-70 animate-blob mix-blend-multiply rounded-full absolute lg:-top-[6vw] lg:-right-[6vw] -top-[5vh] -right-[10vh]"></div>
+        </span>
       </div>
     </section>
   );
