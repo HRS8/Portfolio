@@ -20,7 +20,6 @@
   font-family:'Source Code Pro';
   scroll-behavior: smooth;
   color-scheme: dark;
-  overflow: hidden;
 }
 @layer utilities{
   .animation-delay-3000{
