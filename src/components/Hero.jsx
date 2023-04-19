@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={`relative  h-screen mx-auto overflow-hidden  `}>
       <div
-        className={`absolute inset-0 top-[22vh] xl:ml-[5rem] z-20 max-w-auto mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[22vh] xl:ml-[5rem] max-w-auto mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div>
           <h1 className={`${styles.heroHeadText} text-white cursor-pointer`}>
