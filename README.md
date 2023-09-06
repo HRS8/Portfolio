@@ -1,5 +1,3 @@
-Sure, I can help you with that. Here's a sample content for your README file:
-
 # My Portfolio
 
 This is my portfolio website built using **React**, **Tailwind**, **Framer Motion**, and **Vite**. It showcases my skills, projects, and experiences.
