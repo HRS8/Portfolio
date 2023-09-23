@@ -1,25 +1,31 @@
 import { color, motion } from "framer-motion";
-import Typewriter from 'typewriter-effect'
+import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative  h-screen mx-auto overflow-hidden  `}>
+    <section className={`relative h-screen mx-auto overflow-hidden`}>
       <div
         className={`absolute inset-0 top-[22vh] xl:ml-[5rem] z-[15] max-w-auto mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div>
-          <h1 className={`${styles.heroHeadText} text-white cursor-pointer`}>
+          <h1
+            className={`${styles.heroHeadText} text-white cursor-pointer pacifico`}
+          >
             Hi
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
             </span>
             <br />
             I'm{" "}
-            <span className="text-[#915EFF] font-Andan font-thin">Harsha</span>
+            <span className=" text-[#8472c5] md:text-[#6b4ae6d7] font-Andan font-thin">
+              Harsha
+            </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p
+            className={`${styles.heroSubText} mt-2 text-[#ffffffb4] font-semibold`}
+          >
             <Typewriter
               options={{
                 strings: [
@@ -34,12 +40,12 @@ const Hero = () => {
               }}
             />
           </p>
-          <div className="mt-4">
+          <div className="mt-16">
             <a
               href="https://github.com/HRS8/VitePort/raw/main/public/Harsha%20resume.pdf"
               download
             >
-              <button className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-black border-2 border-transparent hover:border-white-100 transition ease-in-out delay-100 duration-300 hover:scale-90">
+              <button className="bg-gradient-to-br from-[#252525] to-[#0f0f0f] py-3 px-6 text-[#ffffffd7] text-[18px] rounded-xl outline-none w-fit font-bold shadow-md shadow-primary hover:bg-black border border-[#ffffff25] hover:border-white-100 transition ease-in-out delay-100 duration-300 hover:scale-90">
                 My resume
               </button>
             </a>
