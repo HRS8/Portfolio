@@ -13,7 +13,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 const Skill=({name,x,y})=>{
   return(
-    <motion.div className="text-xs xs:text-sm px-[0.15rem] py-[0.11rem]  flex absolute xs:px-2 xs:py-1.5 items-center justify-center rounded-full font-semibold bg-white text-black"
+    <motion.div className="text-xs cursor-default xs:text-sm px-[0.15rem] py-[0.11rem]  flex absolute xs:px-2 xs:py-1.5 items-center justify-center rounded-full font-black bg-gradient-to-tr from-slate-200 to-white-100 text-blue-950"
      whileHover={{scale:1.5}}
      variants={move(x,y)}
     >{name}</motion.div>
@@ -41,14 +41,14 @@ const About = () => {
     // Remove the listener when the component is unmounted
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
+    }; 
   }, []);
 
   return (
-    <>
-    <h2 className={`${styles.sectionHeadText} text-center`}>Work Experience.</h2>
+    <> 
+    <h2 className={`text-4xl vast text-center decoration-2 font-medium underline-offset-8 decoration-red-600 underline text-[#82c7ffe1]`}>Work Experience.</h2>
     <div className="w-full h-[60vh] mt-8 md:mt-5 md:h-screen relative flex items-center justify-center rounded-full bg-circularLightSm  lg:bg-circularLightLg md:bg-circularLightMd xl:bg-circularLight">
-      <motion.div className="flex items-center  justify-center rounded-full font-semibold bg-white text-black p-3" whileHover={{scale:1.05}}>Web</motion.div>
+      <motion.div className="flex select-none items-center  justify-center rounded-3xl font-semibold bg-gradient-to-tr from-slate-500 to-white-100 text-black p-3" whileHover={{scale:1.05}}>Web</motion.div>
       <Skill name="CSS" x={isMobile? "-33vw":"-5vw"} y={isMobile?"-11vh":"-13vw"} />
       <Skill name="HTML" x={isMobile?"-40vw":"-20vw"} y="2vw" />
       <Skill name="ReactJS" x={isMobile?"0vw":"0vw"} y={isMobile? "25vh":"13vw"} />
