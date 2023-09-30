@@ -18,7 +18,7 @@ const Contact = () => {
     message: "",
   });
 
-  const [loading, setLoading] = useState(0);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -32,45 +32,96 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(1);
-    Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "anujsah25112010@gmail.com",
-      Password : "ABFFFE0C8DD4CBEDB88D02E0542A061B0BA6",
-      To : 'harshithvallabaneni3824@gmail.com',
-      From : form.email,
-      Subject : `A New Message From ${form.name} By Portfolio Contact Form`,
-      Body : `Message is sent by |~ ${form.name} ~ ${form.email} ~| and his message is : ${form.message} `
-  }).then(
-    delay(1000).then(() => setLoading(2)),
-    )
-    function delay(time) {
-      return new Promise(resolve => setTimeout(resolve, time));
-    }
+    setLoading(true);
+
+    emailjs
+      .send(
+        'service_ustcu6b',
+        'template_58rrruv',
+        {
+          from_name: form.name,
+          to_name: "Harsha",
+          from_email: form.email,
+          to_email: "harshithvallabaneni3824@gmail.com",
+          message: form.message,
+        },
+        '9GSTpi8F69U-EQzka'
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("I'll spam you soon :)");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+
+          alert("wonkers,something broke bruh x(. you can reach me at harshithvallabaneni3824@gmail.com");
+        }
+      );
   };
 
   return (
     <div
-      className={`xl:mt-12 pb-20 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
-      <motion.div variants={slideIn("left", "tween", 0.2, 1)} className='hover:border-[#1d8b8b] flex-[0.75] border border-[#235f5f] bg-[#121211] shadow-2xl hover:shadow-[#42316e] shadow-[#3d3679] p-8 rounded-2xl mx-auto'>
-        <p className={`${styles.sectionSubText} lobster text-3xl text-cyan-300 underline underline-offset-4 decoration-2 decoration-double italic my-3 hover:text-[32px] duration-200 cursor-default hover:text-[#a7b4ff]`}>»→ Get in touch  »→</p>
-        <h3 className={`${styles.sectionHeadText} text-3xl tracking-wider spice font-bold text-[#7a78ff] italic mt-[32px] hover:text-[32px] duration-200 cursor-default hover:text-[#95a5ff]`}>Contact.</h3> 
-        <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
+      <motion.div
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className='flex-[0.75] bg-[#121211] p-8 rounded-2xl mx-auto'
+      >
+        <p className={styles.sectionSubText}>Get in touch</p>
+        <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className='mt-12 flex flex-col gap-8'
+        >
           <label className='flex flex-col'>
-            <span className='font-medium text-xl ml-2 hover:text-[21px] duration-200 hover:text-violet-500 text-violet-400 mb-4 pacifico'>Your Name</span>
-            <input type='text' name='name' value={form.name} onChange={handleChange} placeholder="What's your good name?" className='bg-tertiary lobster placeholder:tracking-widest py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-[1px] outline-double outline-offset-[3px] outline-[#6b4545] font-medium' />
+            <span className='text-white font-medium mb-4'>Your Name</span>
+            <input
+              type='text'
+              name='name'
+              value={form.name}
+              onChange={handleChange}
+              placeholder="What's your good name?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+            />
           </label>
           <label className='flex flex-col'>
-            <span className='font-medium text-xl ml-2 text-violet-400 mb-4 pacifico hover:text-[21px] duration-200 hover:text-violet-500'>Your email</span>
-            <input type='email' name='email' value={form.email} onChange={handleChange}placeholder="What's your web address?" className='bg-tertiary lobster placeholder:tracking-widest py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-[1px] outline-double outline-offset-[3px] outline-[#6b4545] font-medium' />
+            <span className='text-white font-medium mb-4'>Your email</span>
+            <input
+              type='email'
+              name='email'
+              value={form.email}
+              onChange={handleChange}
+              placeholder="What's your web address?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+            />
           </label>
           <label className='flex flex-col'>
-            <span className='font-medium text-xl ml-2 text-violet-400 mb-4 pacifico hover:text-[21px] duration-200 hover:text-violet-500'>Your Message</span>
-            <textarea rows={7} name='message' value={form.message} onChange={handleChange} placeholder='What you want to say?' className='bg-tertiary lobster placeholder:tracking-widest py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-[1px] outline-double outline-offset-[3px] outline-[#6b4545] font-medium' />
+            <span className='text-white font-medium mb-4'>Your Message</span>
+            <textarea
+              rows={7}
+              name='message'
+              value={form.message}
+              onChange={handleChange}
+              placeholder='What you want to say?'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+            />
           </label>
-          <button type='submit' className={`py-3 bg-slate-900 border border-[#202020] px-8 rounded-xl outline-none hover:shadow-[#302563] w-fit font-bold shadow-md shadow-[#0f3d3d] disabled:opacity-10`} disabled={loading==2} >
-            {loading == 1 ? "Sending..." : loading == 2 ? "Sent" : "Send"}
+
+          <button
+            type='submit'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+          >
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </motion.div>

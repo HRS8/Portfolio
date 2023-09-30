@@ -32,9 +32,9 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0,0);
           }}>
-            <img src={logol} alt='logo' className="rounded-xl hover:rounded-lg w-9 h-9 object-contain"/>
-            <p className="hover:text-blue-300 text-white text-[18px] font-bold cursor-pointer flex ">
-              Harsha&nbsp;<span className="sm:block hidden">| WebDev</span>
+            <img src={logol} alt='logo' className="w-9 h-9 object-contain"/>
+            <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+              Harsha&nbsp;<span className="sm:block hidden">|WebDev</span>
             </p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10 items-center right-0 '>
@@ -43,7 +43,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white-100 hover:text-[20px] duration-200 text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -61,7 +61,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-gradient-to-br border border-[#3f3e45] from-black-200 to-gray-600 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}
+            } p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
