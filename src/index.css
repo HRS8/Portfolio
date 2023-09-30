@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Open+Sans:ital,wght@1,300&family=Source+Code+Pro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -312,54 +303,24 @@
   }
 }
 
+
+
+
+
 /*
 <nav class=" top-0 fixed left-0 h-screen w-8 m-0 flex flex-col bg-slate-600 text-white py-5">
-<ul class="list-none  space-y-[50px]">
-<li class="-rotate-90 my-10 text-white cursor-pointer group">
-<a href="#" class="text-white flex flex-row">
-<div>~</div>
-<div class="inline-block scale-0 group-hover:scale-100">item1</div>
-</a>
+          <ul class="list-none  space-y-[50px]">
+            <li class="-rotate-90 my-10 text-white cursor-pointer group">
+              <a href="#" class="text-white flex flex-row">
+                <div>~</div>
+                <div class="inline-block scale-0 group-hover:scale-100">item1</div>
+             </a>
            </li>
-           
-           <li class= "-rotate-90 my-10 h-auto    text-black text-[18px] font-medium cursor-pointer">
-           <a href="#" className="  text-white" >item2</a>
-           </li>
-           </ul>
-           </nav>
-           
-           */
-.pacifico{
-  font-family: 'Pacifico', cursive;
-}
 
-.spice{
-  font-family: 'Bungee Spice', cursive;
-}
+            <li class= "-rotate-90 my-10 h-auto    text-black text-[18px] font-medium cursor-pointer">
+              <a href="#" className="  text-white" >item2</a>
+            </li>
+          </ul>
+      </nav>
 
-.vast{
-  font-family: 'Vast Shadow', serif;
-}
-
-.foldit{
-  font-family: 'Foldit', cursive;
-}
-
-.tech{
-  font-family: 'Share Tech Mono', monospace;
-}
-
-.peralta{
-  font-family: 'Peralta', serif;
-}
-
-.lobster{
-  font-family: 'Lobster', cursive;
-}
-
-.mono{
-  font-family: 'Syne Mono', monospace;
-}
-.mooli{
-  font-family: 'Mooli', sans-serif;
-}
+*/
