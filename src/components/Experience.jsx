@@ -33,7 +33,7 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <h3 className="text-[#ffe8e8] text-[24px] spice mb-4 underline decoration-double decoration-2 underline-offset-4 decoration-red-500 font-bold">{experience.title}</h3>
         <p
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
@@ -46,7 +46,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100 text-[18px] tech pl-1 tracking-tighter"
           >
             {point}
           </li>
@@ -59,14 +59,14 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+      <div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center foldit text-[50px] underline decoration-gray-300 decoration-2 underline-offset-4 italic`}>
           What I have done so far
         </p>
-        <h2 className={`lg:text-[60px] text-center text-[20px] font-black text-white`}>
-          Assessments&CourseWork.
+        <h2 className={`lg:text-[60px] md:text-[50px] sm:text-[40px] spice text-center text-[20px] font-black text-[#446ee0ab]`}>
+          Assessments & CourseWork.
         </h2>
-      </motion.div>
+      </div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
