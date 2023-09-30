@@ -32,39 +32,21 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
-
-    emailjs
-      .send(
-        'service_ustcu6b',
-        'template_58rrruv',
-        {
-          from_name: form.name,
-          to_name: "Harsha",
-          from_email: form.email,
-          to_email: "harshithvallabaneni3824@gmail.com",
-          message: form.message,
-        },
-        '9GSTpi8F69U-EQzka'
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("I'll spam you soon :)");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("wonkers,something broke bruh x(. you can reach me at harshithvallabaneni3824@gmail.com");
-        }
-      );
+    setLoading(1);
+    Email.send({
+      Host : "smtp.elasticemail.com",
+      Username : "anujsah25112010@gmail.com",
+      Password : "ABFFFE0C8DD4CBEDB88D02E0542A061B0BA6",
+      To : 'harshithvallabaneni3824@gmail.com',
+      From : form.email,
+      Subject : `A New Message From ${form.name} By Portfolio Contact Form`,
+      Body : `Message is sent by |~ ${form.name} ~ ${form.email} ~| and his message is : ${form.message} `
+  }).then(
+    delay(1000).then(() => setLoading(2)),
+    )
+    function delay(time) {
+      return new Promise(resolve => setTimeout(resolve, time));
+    }
   };
 
   return (
