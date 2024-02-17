@@ -24,8 +24,8 @@ const Hero = () => {
               options={{
                 strings: [
                   "Developer",
-                  "Deep Learning Engineer",
-                  "MERN Stack Developer",
+                  "DevOps Engineer",
+                  "Full Stack Developer",
                   "Open Source Contributor",
                 ],
                 autoStart: true,
@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
           <div className="mt-4">
             <a
-              href="https://github.com/HRS8/VitePort/raw/main/public/Harsha%20resume.pdf"
+              href="https://drive.google.com/uc?export=download&id=1x71GJh9TJs_chjXlvVn8edyB2p0BldU4"
               download
             >
               <button className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-black border-2 border-transparent hover:border-white-100 transition ease-in-out delay-100 duration-300 hover:scale-90">
