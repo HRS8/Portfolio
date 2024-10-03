@@ -137,7 +137,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2020 - April 2020",
     points: [
-      "I was one of 20 students got selected out of 300 across the state based on academics","As a part of final project we,A team of 5 students build a fullstack website and deployed it using BootStrap,SpringBoot,MongoDb "
+      "I was one of 20 students got selected out of 300 across the state based on academics","As a part of final project we,A team of 5 students build a fullstack website and deployed it."
     ],
   },
   {
