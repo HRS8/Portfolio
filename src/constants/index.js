@@ -157,7 +157,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2021 - August 2021",
     points: [
-      "When I wanted to play with backend technologies,I signed up for backend developer course by meta","With help of this I kick started my journey through Backend Technologies","I developed a sample restaurant website from scratch using Django,Oauth by implementing API".
+      "When I wanted to play with backend technologies,I signed up for backend developer course by meta","With help of this I kick started my journey through Backend Technologies","I developed a sample restaurant website from scratch using Django,Oauth by implementing API"
     ],
   },
   {
